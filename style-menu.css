@@ -1,0 +1,19 @@
+/*hiperlink*/
+.napis {
+	position: relative;
+  	text-align: center;
+  	margin-top: 300px;
+  	font-size: 30px;
+}
+
+a:hover, a:visited, a:link, a:active {
+	color: black;
+  	text-decoration: none;
+}
+
+body {
+	background-size: cover;
+	background-image: url("image/tlo.gif");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
