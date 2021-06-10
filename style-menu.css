@@ -1,5 +1,6 @@
 /*hiperlink*/
 .napis {
+	font-family: Impact, fantasy;
 	position: relative;
   	text-align: center;
   	margin-top: 300px;
@@ -12,7 +13,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 body {
-	background-size: cover;
+	background-size: 100% 100%;
 	background-image: url("image/tlo.gif");
 	background-repeat: no-repeat;
     background-attachment: fixed;
