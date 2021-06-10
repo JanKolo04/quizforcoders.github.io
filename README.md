@@ -2,7 +2,11 @@
 
 I make quizz in html about programing
 
-First step you must run menu.html beacouse this is first file
+# Run main file
+
+```
+open index.html
+```
 
 This is menu whence we will go to game 
 
@@ -14,7 +18,26 @@ Photo in menu is a gif so if you open this on your PC/MAC
 
 Qeuestions is in Polish leanguage beacouse i make this game to school maybe in future i change this
 
-The things that I will give will improve:
-- add on host and everyone can open this game whitout download many files
+If you dont want download all files you can open in browser. I host a website on Github and it is a really nice feature from Github
+https://jankolo04.github.io/quizforcoders.github.io/
 
-I never before programming in html/css/js so dont hate me for weak code 
+# Question in JS 
+
+  ``` Javascript
+  // Variables
+  const quizContainer = document.getElementById('quiz');
+  const resultsContainer = document.getElementById('results');
+  const submitButton = document.getElementById('submit');
+  const myQuestions = [
+    {
+      // questions 1
+      question: "Jaki jest najnowszy system operacyjny od firmy Microsoft ?",
+      answers: {
+        a: "Windows 10",
+        b: "Windows 9",
+        c: "Widnows 8"
+      },
+      correctAnswer: "a"
+    },
+   ]
+  ```
